@@ -31,9 +31,9 @@ and ships with its own README covering the brief, the approach, and how to run i
 
 | # | Project | Track / Level | Tech Stack | Folder |
 |---|---------|----------------|------------|--------|
-| 01 | **AI Dream Architect** — futuristic landing page for an AI life-planning product | WebDev · Level 1 | HTML5, CSS3 | [`WebDev-L1-AILandingPage`](./WebDev-L1-AILandingPage) |
-| 02 | **Personal Portfolio** — premium, animated, full-stack-engineer-style résumé site | WebDev · Level 2 | HTML5, CSS3, JavaScript | [`WebDev-L2-PersonalPortfolio`](./WebDev-L2-PersonalPortfolio) |
-| 03 | **Temperature Converter** — minimal monochrome unit converter with real-time validation | WebDev · Level 3 | HTML5, CSS3, JavaScript | [`WebDev-L3-TemperatureConverter`](./WebDev-L3-TemperatureConverter) |
+| 01 | **AI Dream Architect** — futuristic landing page for an AI life-planning product | WebDev · Level 1 | HTML5, CSS3 |
+| 02 | **Personal Portfolio** — premium, animated, full-stack-engineer-style résumé site | WebDev · Level 2 | HTML5, CSS3, JavaScript |
+| 03 | **Temperature Converter** — minimal monochrome unit converter with real-time validation | WebDev · Level 3 | HTML5, CSS3, JavaScript |
 
 > Each entry links directly to its project folder, source code, and dedicated README.
 
