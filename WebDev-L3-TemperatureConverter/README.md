@@ -73,5 +73,5 @@ This project strengthened my understanding of:
 
 ## Author
 
-**Afreen S**
+**S Afreen**
 Software Engineering Student
