@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Temperature Converter</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="card" id="card">
+
+    <!-- Heading -->
+    <div class="heading-row">
+      <span class="thermo-icon" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+          <path d="M14 14.76V4a2 2 0 0 0-4 0v10.76a4 4 0 1 0 4 0Z" stroke="#333333" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <h1 class="title">Temperature Converter</h1>
+    </div>
+    <p class="subtitle">Convert temperatures instantly between Celsius, Fahrenheit and Kelvin.</p>
+
+    <!-- Input -->
+    <form id="converterForm" novalidate>
+      <div class="field-group">
+        <label for="tempInput" class="field-label">Temperature value</label>
+        <input
+          type="text"
+          inputmode="decimal"
+          id="tempInput"
+          class="text-input"
+          placeholder="Enter temperature"
+          autocomplete="off"
+        />
+        <p class="error-message" id="errorMessage" role="alert"></p>
+      </div>
+
+      <!-- Unit selector -->
+      <div class="field-group">
+        <label for="unitSelect" class="field-label">Input unit</label>
+        <select id="unitSelect" class="unit-select">
+          <option value="C">Celsius (°C)</option>
+          <option value="F">Fahrenheit (°F)</option>
+          <option value="K">Kelvin (K)</option>
+        </select>
+      </div>
+
+      <!-- Convert button -->
+      <button type="submit" class="convert-btn">Convert</button>
+    </form>
+
+    <!-- Results -->
+    <section class="results" id="results" aria-live="polite">
+      <div class="result-card" id="cardC" data-unit="C">
+        <p class="result-label">Celsius</p>
+        <p class="result-value" id="valueC">—</p>
+      </div>
+      <div class="result-card" id="cardF" data-unit="F">
+        <p class="result-label">Fahrenheit</p>
+        <p class="result-value" id="valueF">—</p>
+      </div>
+      <div class="result-card" id="cardK" data-unit="K">
+        <p class="result-label">Kelvin</p>
+        <p class="result-value" id="valueK">—</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">Built with HTML • CSS • JavaScript</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
